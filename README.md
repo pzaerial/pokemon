@@ -14,9 +14,9 @@ Save states for Pokemon games to be managed as code.
   - Nintendo - Game Boy Advance (mGBA)
   - Nintendo - Nintendo DS (melonDS)
 4. Options for linking repo files to RetroArch save states:
-  - a. Change RetroArch's save file location:
+  - a. Change RetroArch's save file location: (recommended)
     - Go to `Settings → Directory` and choose `Save Files`. Browse to this repo.
     - Go to `Main Menu → Configuration File → Save Current Configuration` to lock in changes.
-  - b. Write directly to ROM location:
+  - b. Write directly to ROM location: (untested)
     - DISCLAIMER: Don't share your ROM files with others who don't own the games. Use a private repo or .gitignore ROM files.
     - Go to `Settings → Saving` and toggle on `Write Saves to Content Directory`. This makes RetroArch write .sav files to that location.
