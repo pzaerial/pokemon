@@ -33,12 +33,18 @@ this-repo/
     └── GAME.sav
 ```
 
+### Enable Auto-Flush Save States (Optional)
+By default, save states are persisted to disk **only on graceful exits of the program**. Instead, we can make RetroArch save every few seconds.
+1. Go to `Settings → Saving` and find `SaveRAM Autosave Interval`. Change from `Disabled` to `10 seconds`.
+2. Go back to `Main Menu → Configuration File → Save Current Configuration` to save changes.
+
+
 ### Configure Emulator/Games
 1. `Load Core` to select your emulator.
 2. `Load Content → File Browser → Start Directory` to configure the git repo as the location to search from.
 3. `Import Content → Scan Directory` to load items.
 
-## Play
+## Gameplay
 Select your emulator at the bottom of the menu, and select the game to play.
 
 ### Emulator Keybinds
