@@ -14,6 +14,7 @@ Save states for Pokemon games to be managed as code.
   - Nintendo - Game Boy Advance (mGBA)
   - Nintendo - Nintendo DS (melonDS)
 4. Options for linking repo files to RetroArch save states:
+These are the options you have for managing `.sav` files, which are used between iOS and desktop OS. **To generate these, you must use the ingame "save" features on desktop OS. IOS emulators like Delta already use only these.
   - a. Change RetroArch's save file location: (recommended)
     - Go to `Settings → Directory` and choose `Save Files`. Browse to this repo.
     - Go to `Main Menu → Configuration File → Save Current Configuration` to lock in changes.
@@ -35,6 +36,7 @@ this-repo/
 
 ### Enable Auto-Flush Save States (Optional)
 By default, save states are persisted to disk **only on graceful exits of the program**. Instead, we can make RetroArch save every few seconds.
+This will help you keep track of your `.state` save state files.
 1. Go to `Settings → Saving` and find `SaveRAM Autosave Interval`. Change from `Disabled` to `10 seconds`.
 2. Go back to `Main Menu → Configuration File → Save Current Configuration` to save changes.
 
@@ -48,14 +50,12 @@ By default, save states are persisted to disk **only on graceful exits of the pr
 Select your emulator at the bottom of the menu, and select the game to play.
 
 ### Emulator Keybinds
-# RetroArch Cross-Platform Control Reference
-
 | Keybind (Windows / Mac) | Functionality |
 | :--- | :--- |
 | **`Up` / `Down` / `Left` / `Right` Arrows** | Move character / Navigate menus |
 | **`X`** | **A Button** (Confirm / Interact) |
 | **`Z`** | **B Button** (Cancel / Run) |
-| **`Enter`** *(Manual rebind suggested on Mac)* | **Start Button** (Open Pokémon menu) |
+| **`Enter`** *(or `Right Shift` on Mac)* | **Start Button** (Open Pokémon menu) |
 | **`Right Shift`** *(or `Return` on Mac)* | **Select Button** (Registered Key Item) |
 | **`Q` / `W`** | **L / R Triggers** (GBA/DS) |
 | **`S` / `A`** | **X / Y Buttons** (DS only) |
