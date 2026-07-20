@@ -40,3 +40,24 @@ this-repo/
 
 ## Play
 Select your emulator at the bottom of the menu, and select the game to play.
+
+### Emulator Keybinds
+# RetroArch Cross-Platform Control Reference
+
+| Keybind (Windows / Mac) | Functionality |
+| :--- | :--- |
+| **`Up` / `Down` / `Left` / `Right` Arrows** | Move character / Navigate menus |
+| **`X`** | **A Button** (Confirm / Interact) |
+| **`Z`** | **B Button** (Cancel / Run) |
+| **`Enter`** *(Manual rebind suggested on Mac)* | **Start Button** (Open Pokémon menu) |
+| **`Right Shift`** *(or `Return` on Mac)* | **Select Button** (Registered Key Item) |
+| **`Q` / `W`** | **L / R Triggers** (GBA/DS) |
+| **`S` / `A`** | **X / Y Buttons** (DS only) |
+| **`F1`** *(or `fn` + `F1` on Mac)* | Open RetroArch Menu Overlay |
+| **`Spacebar` (Hold)** | **Fast-Forward** (Speed up battles/grinding) |
+| **`P`** | Pause Emulation |
+| **`F2`** *(or `fn` + `F2` on Mac)* | **Save State** (Local machine only) |
+| **`F4`** *(or `fn` + `F4` on Mac)* | **Load State** (Local machine only) |
+| **`Esc` (Press Twice)** | Instantly Close RetroArch |
+
+For manual rebinds, Press `F1` (or `fn + F1` on Mac) to open quick menu, Press Back twice to reach the Main Menu, then go to `Settings → Input → RetroPad Binds → Port 1 Controls` and rebind what you need.
