@@ -20,3 +20,15 @@ Save states for Pokemon games to be managed as code.
   - b. Write directly to ROM location: (untested)
     - DISCLAIMER: Don't share your ROM files with others who don't own the games. Use a private repo or .gitignore ROM files.
     - Go to `Settings → Saving` and toggle on `Write Saves to Content Directory`. This makes RetroArch write .sav files to that location.
+
+### Folder Structure Example
+```bash
+this-repo/
+├── .gitignore
+├── GBA/
+│   ├── GAME.gba
+│   └── GAME.sav
+└── NDS/
+    ├── GAME.nds
+    └── GAME.sav
+```

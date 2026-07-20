@@ -1,0 +1,9 @@
+# Ignore all ROM files 
+*.gba
+*.nds
+*.zip
+*.7z
+*.DS_Store
+
+# Allow tracking of all save files
+!*.sav
