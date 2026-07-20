@@ -32,3 +32,11 @@ this-repo/
     ├── GAME.nds
     └── GAME.sav
 ```
+
+### Configure Emulator/Games
+1. `Load Core` to select your emulator.
+2. `Load Content → File Browser → Start Directory` to configure the git repo as the location to search from.
+3. `Import Content → Scan Directory` to load items.
+
+## Play
+Select your emulator at the bottom of the menu, and select the game to play.
