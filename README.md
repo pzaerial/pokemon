@@ -14,7 +14,7 @@ Save states for Pokemon games to be managed as code.
   - Nintendo - Game Boy Advance (mGBA)
   - Nintendo - Nintendo DS (melonDS)
 4. Options for linking repo files to RetroArch save states:
-These are the options you have for managing `.sav` files, which are used between iOS and desktop OS. **To generate these, you must use the ingame "save" features on desktop OS. IOS emulators like Delta already use only these.
+These are the options you have for managing `.sav` files, which are used between iOS and desktop OS. **To generate these, you must use the ingame "save" features on desktop OS. IOS emulators like Delta already use only these. Reminder that this is either `Start` or `X` depending on the game you're playing.
   - a. Change RetroArch's save file location: (recommended)
     - Go to `Settings → Directory` and choose `Save Files`. Browse to this repo.
     - Go to `Main Menu → Configuration File → Save Current Configuration` to lock in changes.
