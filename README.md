@@ -1,6 +1,8 @@
 # Pokemon
 Save states for Pokemon games to be managed as code.
 
+![pokemon](static/pokemon.png)
+
 ## Setup
 
 ### Delta on Mobile
