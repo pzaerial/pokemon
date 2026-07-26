@@ -73,7 +73,15 @@ This will help us additionally check in the `.state` save state files.
 1. Pull the repo.
 2. In RetroArch, confirm that `Settings -> Directory -> Start Directory` still shows your repo location from initial setup.
 3. Refresh RetroArch content using `Import Content -> Scan Directory -> <Scan This Directory>` on your repo location.
-4. The next launch should give you the "Continue Saved Game" dialog after pressing Start at the main menu. 
+4. The next launch should give you the "Continue Saved Game" dialog after pressing Start at the main menu.
+**Notes**:
+Blue Screen issues happen when loading save files. Usually due to missing files:
+1. Download `https://archive.org/download/nds-bios-firmware`.
+2. Open the `system/` folder in your install (probably `C:\RetroArch-Win64\system` or `AppData` if using steam).
+3. Paste `bios7.bin`, `bios9.bin`, and `firmware.bin` in that folder, not into any emulator subdirectory.
+4. Restart RetroArch, start your game, and quickly press `F1` to open the in game menu.
+5. Select `Core Options -> System -> and toggle **Use Real BIOS** (or **Boot Game Directly**) to ON.
+6. Restart the game from the F1 quick menu.
 
 ### Export on Desktop (RetroArch)
 1. After a game session, save the game **using the ingame Start -> Save** option. We want this `.sav` file instead of the `.state` emulator state, though you may save that too.
