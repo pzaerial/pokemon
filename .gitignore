@@ -7,3 +7,6 @@
 
 # Allow tracking of all save files
 !*.sav
+
+# Utils folder
+utilities/
