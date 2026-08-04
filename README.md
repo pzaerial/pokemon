@@ -14,6 +14,7 @@ Save states for Pokemon games to be managed as code.
 ### RetroArch on Windows
 1. Install [RetroArch](https://www.retroarch.com/?page=platforms).
   - Note for Windows: Don't install in `C:\Program Files` directory to avoid permission issues.
+  - Note for Mac: Don't install from the App Store, use the direct installer above.
 2. In `Main Menu → Online Updater`, update the following (at the bottom of the list):
   - Update Core Info Files
   - Update Assets
@@ -79,7 +80,7 @@ This will help us additionally check in the `.state` save state files.
 **Notes**:
 Blue Screen issues happen when loading save files. Usually due to missing files:
 1. Download `https://archive.org/download/nds-bios-firmware`.
-2. Open the `system/` folder in your install (probably `C:\RetroArch-Win64\system` or `AppData` if using steam).
+2. Open the `system/` folder in your install (probably `C:\RetroArch-Win64\system`, or `AppData` if using steam, or `~/Documents/RetroArch/system).
 3. Paste `bios7.bin`, `bios9.bin`, and `firmware.bin` in that folder, not into any emulator subdirectory.
 4. Restart RetroArch, start your game, and quickly press `F1` to open the in game menu.
 5. Select `Core Options -> System -> and toggle **Use Real BIOS** (or **Boot Game Directly**) to ON.
