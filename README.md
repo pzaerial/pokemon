@@ -79,8 +79,10 @@ This will help us additionally check in the `.state` save state files.
 4. The next launch should give you the "Continue Saved Game" dialog after pressing Start at the main menu.
 **Notes**:
 Blue Screen issues happen when loading save files. Usually due to missing files:
-1. Download `https://archive.org/download/nds-bios-firmware`.
-2. Open the `system/` folder in your install (probably `C:\RetroArch-Win64\system`, or `AppData` if using steam, or `~/Documents/RetroArch/system).
+1. Download `bios7.bin`, `bios9.bin`, and `firmware.bin` from [the Archive link](https://archive.org/download/nds-bios-firmware).
+2. Open the `system/` folder in your install:
+- On Windows, this is in `C:\RetroArch-Win64\system`, or inside `AppData` if installed via Steam.
+- Oh Macos, this is in `~/Documents/RetroArch/system` if installed via the official download, or in `~/Library/Application Support/RetroArch` if installed via the app Store (not recommended) - On Mac, this location is a hidden directory so you must open Finder and choose `Go > Go To Folder`.
 3. Paste `bios7.bin`, `bios9.bin`, and `firmware.bin` in that folder, not into any emulator subdirectory.
 4. Restart RetroArch, start your game, and quickly press `F1` to open the in game menu.
 5. Select `Core Options -> System -> and toggle **Use Real BIOS** (or **Boot Game Directly**) to ON.
